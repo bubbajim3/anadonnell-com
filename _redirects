@@ -1,3 +1,11 @@
+# Main redirect
+/ https://www.linkedin.com/in/ana-katrina-donnell/ 302
+
+# Force static files to return without redirect
+/robots.txt /robots.txt 200
+/sitemap.xml /sitemap.xml 200
+/.well-known/security.txt /.well-known/security.txt 200
+
 # Remove trailing slash
 /:notrailing/ /:notrailing 302
 
@@ -7,8 +15,5 @@
 # URL shortening
 /jd https://www.jamesdonnell.com 302
 
-# Redirect unknown
+# Redirect unknown if file does not exist
 /:unknown /?short=:unknown 302
-
-# Main redirect
-/ https://www.linkedin.com/in/ana-katrina-donnell/ 302
