@@ -1,5 +1,6 @@
 # Main redirect
-/ / 200
+/ https://www.linkedin.com/in/ana-katrina-donnell/ 302
+
 # Force static files to return without redirect
 /robots.txt /robots.txt 200
 /sitemap.xml /sitemap.xml 200
